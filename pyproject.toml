@@ -1,0 +1,38 @@
+
+[tool.poetry]
+name = "hello-maturin"
+version = "0.1.0"
+description = "Maturin Starter Project w/PyO3 & Poetry"
+authors = ["kfields <kurtisfields@gmail.com>"]
+
+[tool.poetry.dependencies]
+#python = "^3.10"
+python = "^3.7"
+
+[tool.poetry.dev-dependencies]
+maturin = "^0.13.2"
+pytest = "^7.1.2"
+pytest-benchmark = "^3.4.1"
+
+[build-system]
+requires = ["maturin>=0.13,<0.14"]
+build-backend = "maturin"
+
+[project]
+name = "hello-maturin"
+version = "0.1.0"
+description = "Maturin Starter Project w/Poetry"
+authors = ["kfields <kurtisfields@gmail.com>"]
+requires-python = ">=3.7"
+license = {file = "LICENSE"}
+classifiers = [
+    "Programming Language :: Rust",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: Implementation :: PyPy",
+]
+
+[project.urls]
+homepage = "https://github.com/kevinheavey/pyheck"
+documentation = "https://kevinheavey.github.io/pyheck/"
+repository = "https://github.com/kevinheavey/pyheck"
+changelog = "https://github.com/kevinheavey/pyheck/blob/main/CHANGELOG.md"
