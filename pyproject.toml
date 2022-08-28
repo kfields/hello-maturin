@@ -3,7 +3,7 @@
 name = "hello-maturin"
 version = "0.1.0"
 description = "Maturin Starter Project w/PyO3 & Poetry"
-authors = ["kfields <kurtisfields@gmail.com>"]
+authors = [ {name = "kfields", email = "kurtisfields@gmail.com"} ]
 
 [tool.poetry.dependencies]
 #python = "^3.10"
@@ -22,7 +22,7 @@ build-backend = "maturin"
 name = "hello-maturin"
 version = "0.1.0"
 description = "Maturin Starter Project w/Poetry"
-authors = ["kfields <kurtisfields@gmail.com>"]
+authors = [ {name = "kfields", email = "kurtisfields@gmail.com"} ]
 requires-python = ">=3.7"
 license = {file = "LICENSE"}
 classifiers = [
@@ -32,7 +32,7 @@ classifiers = [
 ]
 
 [project.urls]
-homepage = "https://github.com/kevinheavey/pyheck"
-documentation = "https://kevinheavey.github.io/pyheck/"
-repository = "https://github.com/kevinheavey/pyheck"
-changelog = "https://github.com/kevinheavey/pyheck/blob/main/CHANGELOG.md"
+homepage = "https://github.com/kfields/hello-maturin"
+documentation = "https://kfields.github.io/hello-maturin/"
+repository = "https://github.com/kfields/hello-maturin"
+changelog = "https://github.com/kfields/hello-maturin/blob/main/CHANGELOG.md"
